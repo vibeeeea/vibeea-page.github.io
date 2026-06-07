@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibeea page :3</title>
+    <link rel="icon" type="image/png" href="icon.png">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #000000;
+            color: #e0e0e0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .container {
+            width: 100%;
+            max-width: 800px;
+        }
+        h1 {
+            color: #228B22; /* Forest Green */
+            text-shadow: 0 0 10px #228B22;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .box {
+            background-color: #0a0a0a;
+            border: 2px solid #228B22; /* Forest Green */
+            padding: 25px;
+            margin-bottom: 30px;
+            border-radius: 15px;
+            transition: transform 0.3s ease;
+        }
+        .box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 15px rgba(34, 139, 34, 0.3);
+        }
+        .box-about {
+            border: 2px solid #4B0082; /* Deep Purple */
+        }
+        .box-about:hover {
+            box-shadow: 0 0 15px rgba(75, 0, 130, 0.3);
+        }
+        .about-flex {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        /* CAMBIO: Eliminé las dimensiones fijas para que se adapte al tamaño real de la imagen */
+        .about-flex img {
+            max-width: 150px; /* Tamaño máximo razonable */
+            height: auto;     /* Mantiene la proporción */
+            border-radius: 15px; /* Cambié a esquinas redondeadas en lugar de círculo para que se vea bien en varios tamaños */
+            border: 3px solid #4B0082;
+        }
+        .box img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            display: block;
+        }
+        .button {
+            display: inline-block;
+            background-color: #228B22;
+            color: #ffffff;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .button:hover {
+            background-color: #1a6b1a;
+        }
+        h2 {
+            margin-top: 0;
+            color: #228B22;
+        }
+        .box-about h2 {
+            color: #4B0082;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Welcome to my page :D</h1>
+
+    <div class="box box-about">
+        <div class="about-flex">
+            <img src="vibe.png" alt="Vibe Avatar">
+            <div class="text-box">
+                <h2>about me</h2>
+                <p>Haiiiiiiiiiii im vibeea (vibe) im a mod maker (and game maker) i want make music, i make mods and games,(servers too) i hope you like my music, servers and mods :3</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="my_animations.png" alt="Mod Screenshot">
+        <h2>My Luanti Mod</h2>
+        <p>See my Luanti mod, now officially on contentDB :0</p>
+        <a href="https://content.luanti.org/packages/Drix03/my_animations/" class="button" target="_blank">my_animations</a>
+    </div>
+
+    <div class="box">
+        <img src="nyctophobia.png" alt="Server Screenshot">
+        <h2>Server: Nyctophobia horror (beta)</h2>
+        <p>This is my server, Nyctophobia horror, sometimes i make it public on server lists, its a horror survival with classic horror characters, like momo,slenderman,cartoon cat/dog, and more!!!!! :000</p>
+    </div>
+</div>
+
+</body>
+</html>
+
